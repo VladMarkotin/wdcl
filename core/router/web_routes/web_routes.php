@@ -38,6 +38,15 @@ class web_routes
             'middleware' => 'anyone',
             'view' => '404.html',
         ),
+        "second-task" => array(
+            'route' => '/second-task',
+            'file' => 'app/controllers/testController.php',
+            'class' => 'App\Controllers\testController',
+            'function' => 'secondTask',
+            'method' => 'get',
+            'middleware' => 'anyone',
+            'view' => 'test.html',
+        ),
         
     ];
 
